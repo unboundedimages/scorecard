@@ -1,0 +1,34 @@
+{
+  "name": "scorecard",
+  "version": "1.0.0",
+  "description": "An excellent utility for golfers who want to keep track of their score during a round of golf.",
+  "main": "server.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unboundedimages/scorecard.git"
+  },
+  "keywords": [
+    "Golf",
+    "CRuD",
+    "rodrossdev",
+    "REACT",
+    "MYSQL"
+  ],
+  "author": "Rodney Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unboundedimages/scorecard/issues"
+  },
+  "homepage": "https://github.com/unboundedimages/scorecard#readme"
+}
